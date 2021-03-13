@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Ascii_Engine</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="libtcod-net">
+      <HintPath>lib\libtcod-net.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
