@@ -14,4 +14,7 @@ AsciiEngine.OnRender += gameManager.Render;
 
 // Initialize the engine.
 AsciiEngine.Initialize(60);
+
+// Draw char.
+AsciiRenderer.SetChar(x, y, '#');
 ```
